@@ -7,7 +7,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,src_port,dst_port,datalength,tcp-flags,Sequence,ack,window,urg,options"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,src_port,dst_port,datalength,tcp-flags,Sequence,ack,window,urg,options,rid"
           }
         }
       ],
@@ -28,7 +28,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,src_port,dst_port,datalength"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,src_port,dst_port,datalength,rid"
           }
         }
       ],
@@ -49,7 +49,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-desc"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-desc,rid"
           }
         }
       ],
@@ -70,7 +70,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-id,icmp-sequence"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-id,icmp-sequence,rid"
           }
         }
       ],
@@ -91,7 +91,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-dst-ip,icmp-protocol-id"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-dst-ip,icmp-protocol-id,rid"
           }
         }
       ],
@@ -112,7 +112,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-dst-ip,icmp-protocol-id,icmp-port"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-dst-ip,icmp-protocol-id,icmp-port,rid"
           }
         }
       ],
@@ -133,7 +133,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-desc"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-desc,rid"
           }
         }
       ],
@@ -154,7 +154,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-dst-ip,icmp-mtu"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-dst-ip,icmp-mtu,rid"
           }
         }
       ],
@@ -175,7 +175,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-id,icmp-sequence"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-id,icmp-sequence,rid"
           }
         }
       ],
@@ -196,7 +196,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-id,icmp-sequence,icmp-otime,icmp-rtime,icmp-ttime"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,tos,ecn,ttl,id,offset,flags,protocolid,protocol,length,src_ip,dst_ip,icmp-type,icmp-id,icmp-sequence,icmp-otime,icmp-rtime,icmp-ttime,rid"
           }
         }
       ],
@@ -217,7 +217,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,class,flowlabel,hoplimit,protocol,protocolid,length,src_ip,dst_ip,src_port,dst_port,datalength,tcp-flags,sequence,ack,window,urg,options"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,class,flowlabel,hoplimit,protocol,protocolid,length,src_ip,dst_ip,src_port,dst_port,datalength,tcp-flags,sequence,ack,window,urg,options,rid"
           }
         }
       ],
@@ -238,7 +238,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,class,flowlabel,hoplimit,protocol,protocolid,length,src_ip,dst_ip,src_port,dst_port,datalength"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,class,flowlabel,hoplimit,protocol,protocolid,length,src_ip,dst_ip,src_port,dst_port,datalength,rid"
           }
         }
       ],
@@ -259,7 +259,7 @@
         {
           "type": "csv",
           "config": {
-            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,class,flowlabel,hoplimit,protocol,protocolid,length,src_ip,dst_ip,options"
+            "column_header": "rule-number,sub-rule-number,anchor,tracker,interface,reason,action,direction,ipversion,class,flowlabel,hoplimit,protocol,protocolid,length,src_ip,dst_ip,options,rid"
           }
         }
       ],
@@ -274,5 +274,5 @@
       "condition_value": "^.*\\s?filterlog\\[.*\\]:\\s+.*,(in|out),6,.*,ICMPv6,.*$"
     }
   ],
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
